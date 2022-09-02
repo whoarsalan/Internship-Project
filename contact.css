@@ -1,0 +1,172 @@
+.box {
+    margin: 20px 60px 20px 60px;
+    padding: 10px;
+    justify-content: center;
+}
+section {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    height: 90%;
+}
+
+#box1 {
+    padding: 20px 0 20px 0;
+    height: 584px;
+    width: 429px;
+    border: 1px;
+    background: rgba(49, 78, 107, 0.642);
+    border-radius: 20px;
+}
+
+.contact-container {
+    margin: 0 10px 0 10px;
+    background-color: rgba(201, 200, 200, 0.537);
+    border-radius: 15px;
+}
+
+input {
+
+    background: rgba(201, 200, 200, 0.582);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+.contact-section{
+    padding-top:100px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/Milestone/images/background.jpg");
+    background-size: cover; 
+    /* background: rgb(0, 110, 255); */
+    height: 100%;
+}
+#box2 {
+    color: white;
+    padding: 20px 0 20px 0;
+    height: 584px;
+    width: 800px;
+    background: rgba(49, 78, 107, 0.642);
+    /* background: rgba(84, 150, 81, 0.842); */
+    border: 1px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+
+.text {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 0 0 20px 0;
+
+}
+
+.info {
+    text-align: left;
+    display: flex;
+}
+
+p {
+    color: white;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+    border-radius: 7px;
+    background: rgba(201, 200, 200, 0.582);
+    color: white;
+}
+
+.btnn {
+    border-radius: 10px;
+    border: solid rgba(87, 84, 84, 0.637) 0.5px;
+    width: 70px;
+    height: 20px;
+    transition: all 0.3x ease;
+}
+
+.btnn:hover {
+    background-color: rgba(87, 84, 84, 0.637);
+    transition: all 0.3s ease;
+}
+
+.info2 {
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    /* border: 2px solid #096296; */
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 120px 10px 120px;
+}
+
+.subject {
+    height: 40px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 120px 10px 120px;
+}
+
+.submit {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px 0 300px;
+}
+
+@media only screen and (max-width:1480px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #box1 {
+        height: 600px;
+        width: 300px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    #box2 {
+        height: 600px;
+        width: 300px;
+    }
+    .name {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subject {
+        height: 40px;
+    }
+
+    textarea {
+        width: 250px;
+        height: 100px;
+    }
+
+    .submit {
+        margin: 0 60px 0 60px;
+    }
+}

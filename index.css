@@ -1,0 +1,86 @@
+.introduction p {
+    margin: -200px 350px 0 350px;
+    font-size: 20px;
+}
+#home{
+    height: 60vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+.introduction { 
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/Milestone/images/background.jpg");
+    background-size: cover;
+    width: 100%;
+}
+ h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.introduction h2 {   
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+#about{
+    height: 100vh;
+    width: 100%;
+}
+.about-us{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/Milestone/images/background.jpg");
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.job-content{
+    /* background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url("/Milestone/images/about.jpg"); */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
+}
+.about-us p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.about-us h3{
+    color: white;
+    font-size: 30px;
+}
+.about-box{
+    background: rgba(0, 0, 0, 0.642);
+    margin-left: 20px;
+    padding: 1rem;
+    width: 60%;
+    border-radius: 15px;
+    /* border: 2px solid rgb(172, 72, 72); */
+}
+.adm{     
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+}
+@media only screen and (max-width:1300px) {
+    .introduction p {
+        margin: 0 100px 0 100px;
+        font-size: 20px;
+    }
+
+}
